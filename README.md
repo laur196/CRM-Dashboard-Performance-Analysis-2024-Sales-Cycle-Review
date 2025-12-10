@@ -25,3 +25,4 @@ Metrics calculated for this table are: Lead lost (Calculate [No. of leads], ‘F
  
 	DimDate: The table contains column with day, weeks, months, month year and year.
 
+https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/Untitled.png
