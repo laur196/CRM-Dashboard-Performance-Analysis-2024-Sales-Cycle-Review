@@ -84,3 +84,11 @@ let
     #"Added Fiscal Quarter" = Table.AddColumn(#"Added Fiscal Year", "Fiscal Quarter", each Number.RoundUp([Fiscal Month]/3))
 in
     #"Added Fiscal Quarter"
+
+   # Executive Summary
+    
+This dashboard reveals a strong but highly seasonal sales cycle. The cause of sales fluctuation was a case of High-Value Seasonal Volatility and this seasonality represents a major risk to consistent annual revenue. Also, there is an overall conversion rate of $11.60, total closed value of $931.3K yet there's a substantial Lost Lead Value of $200.12K indicating poor initial lead qualification in later-stage pipeline management.
+Though, the sales pipeline peaks in June/July but suffers a sharp decline through the rest of the year, particularly after August. 
+The 'SAAS' product is the primary value driver, contributing $44.83 of closed leads by count and $38.36 by value. Country performance is led by the Netherlands $15.00 and Portugal $13.75 in conversion rate, sales agents like Laura Thompson drive the highest closed deal value. 
+
+
