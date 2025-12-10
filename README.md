@@ -49,7 +49,7 @@ Purpose: Organization and country columns were converted from number to text in 
 ## Date Table Details
 The date was inserted into the StartDate and the last day was inserted as the EndDate and this helped to create a date table which contains day, week, month, month year, Quarter year, year.
 
-# Steps Details
+## Steps Details
 
 The date table was created through this method;
 
