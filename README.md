@@ -91,4 +91,15 @@ This dashboard reveals a strong but highly seasonal sales cycle. The cause of sa
 Though, the sales pipeline peaks in June/July but suffers a sharp decline through the rest of the year, particularly after August. 
 The 'SAAS' product is the primary value driver, contributing $44.83 of closed leads by count and $38.36 by value. Country performance is led by the Netherlands $15.00 and Portugal $13.75 in conversion rate, sales agents like Laura Thompson drive the highest closed deal value. 
 
+# Key Insights
+
+	High-Value Seasonal Volatility: Values contributed by both total deals and closed deals peaks sharply in June/July before dropping to its lowest point from September onwards. This seasonality represents a major risk to consistent annual revenue. The contribution from churned customers follows a similar seasonal curve.
+ 
+	Product and Lead Value Concentration: The SAAS product is the largest driver of closed leads by volume with $44.83 and value with $38.36. Custom Solutions is the second largest driver by volume with $23.48 but the lowest by value with $23.48, suggesting that while they close, they might be lower-value or higher-effort deals compared to SAAS.
+
+	Conversion Rate Leaders: The overall conversion rate is $11.60.The Netherlands with $15.00 and Portugal with $13.75 significantly outperform the average, pointing to potential best practices in these regions that could be repeated globally. Germany has the lowest conversion rate at $9.32.
+
+	Sales Agent Impact: The top three agents Laura Thompson, Michael Brown, and Jessica Martinez contributed over $60 of the total closed value, highlighting a concentration of high-value deal closers. However, agents with fewer closed leads like David Wilson have lower conversion rates $7.69 rate, suggesting a need for targeted coaching.
+
+
 
