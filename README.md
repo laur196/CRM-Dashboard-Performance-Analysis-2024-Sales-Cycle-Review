@@ -57,24 +57,20 @@ let
 // Create parameter 
     StartDate = #date(2023,1,1),
     EndDate = #date(2025,5,31),
-    Step = Duration.Days(EndDate - StartDate)+1,
-    
+    Step = Duration.Days(EndDate - StartDate)+1, 
 // Create the List of date
     Source = List.Dates(StartDate,Step, #duration(1,0,0,0)), 
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
     #"Changed Type" = Table.TransformColumnTypes(#"Converted to Table",{{"Column1", type date}}),
     #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Column1", "Date"}}),
-    
 // Create additional columns 
     #"Inserted Year" = Table.AddColumn(#"Renamed Columns", "Year", each Date.Year([Date]), Int64.Type),
     #"Inserted Quarter" = Table.AddColumn(#"Inserted Year", "Quarter", each Date.QuarterOfYear([Date]), Int64.Type),
-    #"Inserted Quarter Year" = Table.AddColumn(#"Inserted Quarter", "Quarter Year", each Text.Combine({"Q", Text.From([Quarter], "en-US"), " ", Text.From([Year], "en-US")}), type text),
-    
+    #"Inserted Quarter Year" = Table.AddColumn(#"Inserted Quarter", "Quarter Year", each Text.Combine({"Q", Text.From([Quarter], "en-US"), " ", Text.From([Year], "en-US")}), type text), 
     #"Inserted Month" = Table.AddColumn(#"Inserted Quarter Year", "Month", each Date.Month([Date]), Int64.Type),
     #"Inserted Month Name" = Table.AddColumn(#"Inserted Month", "Month Name", each Text.Start(Date.MonthName([Date]),3), type text),
     #"Inserted Month Year" = Table.AddColumn(#"Inserted Month Name", "Month Year", each Text.Combine({[Month Name], " ", Text.From([Year], "en-US")}), type text),
     #"Inserted Month Year S" = Table.AddColumn(#"Inserted Month Year", "Month Year S", each Text.Combine({Text.From([Year], "en-US"), Text.PadStart(Text.From([Month], "en-US"), 2, "0")}), type text),
-    
     #"Inserted End of Month" = Table.AddColumn(#"Inserted Month Year S", "End of Month", each Date.EndOfMonth([Date])),
     #"Inserted Week Day Name" = Table.AddColumn(#"Inserted End of Month", "Week Day", each Text.Start(Date.DayOfWeekName([Date]),3), type text),
     #"Inserted Day of Week" = Table.AddColumn(#"Inserted Week Day Name", "Day of Week", each Date.DayOfWeek([Date]), Int64.Type),
@@ -88,4 +84,3 @@ let
     #"Added Fiscal Quarter" = Table.AddColumn(#"Added Fiscal Year", "Fiscal Quarter", each Number.RoundUp([Fiscal Month]/3))
 in
     #"Added Fiscal Quarter"
-
