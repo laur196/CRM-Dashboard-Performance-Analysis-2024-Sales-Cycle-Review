@@ -109,6 +109,9 @@ The 'SAAS' product is the primary value driver, contributing $44.83 of closed le
 
 	Conversion Rate (CRO): Globalize Best Practices from the Netherlands and Portugal. Analyze the sales script, lead sourcing, and objection handling techniques used in these top-performing countries and mandate their implementation in lower-performing regions like Germany. To boost the global average conversion rate above the $12 project goal by replicating proven success. To boost the global average conversion rate above the $12 project goal by replicating proven success.
 
+
+![CRM Data struture](https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/Untitled.png)
+
 	Product Strategy: Prioritize SAAS Lead Qualification. Given SAAS drives the most volume and value, implement a stricter qualification (e.g., using BANT or MEDDIC) for SAAS leads to ensure sales agent focus is on the most promising opportunities. To maximize ROI on sales effort by concentrating resources on the highest-value product line.
 
 
