@@ -14,6 +14,7 @@ This project was carried out to understand how the CRM department handled leads 
 
 	How can we reduce the Lost Lead Value and ensure a high-value closed deal pipeline throughout the year.
 
+
 # Data Structure 
 
 This Dataset contains important metrics such as Lead acquisition, sales agent, product, geographic region, industry, lead value, lead conversion rate, closed lead value, lost lead value and won leads in 2024.
