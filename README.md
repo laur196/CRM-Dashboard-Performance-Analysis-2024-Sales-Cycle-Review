@@ -25,7 +25,7 @@ Metrics calculated for this table are: Lead lost (Calculate [No. of leads], ‘F
  
 	DimDate: The table contains column with day, weeks, months, month year and year.
 
-https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/Untitled.png
+![CRM Data struture](https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/Untitled.png)
 
 # Technical Details 
 This project used Power BI for all stages of data cleaning and analysis, with a focus on CRM lead value in 2024.
