@@ -113,3 +113,5 @@ The 'SAAS' product is the primary value driver, contributing $44.83 of closed le
 	Product Strategy: Prioritize SAAS Lead Qualification. Given SAAS drives the most volume and value, implement a stricter qualification (e.g., using BANT or MEDDIC) for SAAS leads to ensure sales agent focus is on the most promising opportunities. To maximize ROI on sales effort by concentrating resources on the highest-value product line.
 
 ![CRM Data struture](https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/CRM%201.JPG)
+
+![CRM Data struture](https://github.com/laur196/CRM-Dashboard-Performance-Analysis-2024-Sales-Cycle-Review/blob/main/CRM%202.JPG)
